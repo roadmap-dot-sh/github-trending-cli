@@ -43,3 +43,37 @@ use and provide clear output.
 - <b>Documentation</b>: Provide clear instructions on how to install and use the tool.
 
 - <b>Example Usage</b>: `trending-repos --duration month --limit 20`
+
+## Run Application
+
+### Prerequisites
+
+- Java 11 or higher
+- Maven 3.6 or higher
+
+### Build form source
+
+#### 1. Clone repository
+
+```bash
+git https://github.com/roadmap-dot-sh/github-trending-cli.git
+cd github-trending-cli
+```
+
+#### 2. Build the project
+
+```bash
+mvn clean package
+```
+
+#### 3. Run the tool
+
+```bash
+java -jar target/github-trending-cli-0.0.1-SNAPSHOT.jar [options]
+```
+
+Example:
+
+```bash
+java -jar target/github-trending-cli-0.0.1-SNAPSHOT.jar --duration month --limit 20
+```
