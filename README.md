@@ -51,12 +51,12 @@ use and provide clear output.
 - Java 11 or higher
 - Maven 3.6 or higher
 
-### Build form source
+### Build from source
 
 #### 1. Clone repository
 
 ```bash
-git https://github.com/roadmap-dot-sh/github-trending-cli.git
+git clone https://github.com/roadmap-dot-sh/github-trending-cli.git
 cd github-trending-cli
 ```
 
